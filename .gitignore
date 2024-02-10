@@ -11,6 +11,7 @@ api/__pycache__/
 api/v1/__pycache__/
 api/v1/views/__pycache__/
 .venv
+.hbnb
 .idea/
 .vs/
 
