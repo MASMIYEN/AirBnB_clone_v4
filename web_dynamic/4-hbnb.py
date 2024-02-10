@@ -1,13 +1,15 @@
-from models.state import State
-from models.place import Place
-from models.city import City
-from models.amenity import Amenity
-from models import storage
-from flask import Flask, render_template
-from os import environ
 import uuid
-!/usr/bin/python3
-""" Starts a Flash Web Application """
+from os import environ
+
+from flask import Flask, render_template
+from models import storage
+from models.amenity import Amenity
+from models.city import City
+from models.place import Place
+from models.state import State
+
+#!/usr/bin/python3
+""" Starts a Flash Web Application ."""
 
 
 app = Flask(__name__)
