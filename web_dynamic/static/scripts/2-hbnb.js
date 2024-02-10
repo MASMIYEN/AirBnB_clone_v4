@@ -1,31 +1,21 @@
-const $ = window.$;
-$(document).ready(function () {
-  const myAmenities = {};
-  let myList = [];
-  const checkbox = $('.amenities input[type="checkbox"]');
-  checkbox.prop("checked", false);
-  checkbox.change(function () {
-    const dataId = $(this).attr("data-id");
-    const dataName = $(this).attr("data-name");
-    if (this.checked) {
-      myAmenities[dataId] = dataName;
+/* Script that listen for changes on each INPUT checkbox tag */
+$('document').ready(function () {
+  const url = 'http://' + window.location.hostname + ':5001/api/v1/status/';
+  $.get(url, function (res) {
+    if (res.status === 'OK') {
+      $('#api_status').addClass('available');
     } else {
-      delete myAmenities[dataId];
+      $('#api_status').removeClass('available');
     }
-    for (const key in myAmenities) {
-      myList.push(myAmenities[key]);
-    }
-    const output = myList.join(", ");
-    $("div.amenities > h4").text(output);
-    myList = [];
   });
 
-  const apiStatus = $("DIV#api_status");
-  $.ajax("http://0.0.0.0:5001/api/v1/status/").done(function (data) {
-    if (data.status === "OK") {
-      apiStatus.addClass("available");
+  const amenities = {};
+  $('INPUT[type="checkbox"]').change(function () {
+    if ($(this).is(':checked')) {
+      amenities[$(this).attr('data-id')] = $(this).attr('data-name');
     } else {
-      apiStatus.removeClass("available");
+      delete amenities[$(this).attr('data-id')];
     }
+    $('.amenities H4').text(Object.values(amenities).join(', '));
   });
 });
