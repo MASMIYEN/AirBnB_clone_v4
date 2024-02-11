@@ -32,16 +32,16 @@ The console is the first segment of the AirBnB project at Holberton School that 
 
 ## Tasks
 
-| Task                                        | File                                                                                                                               |
-| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 0. Last clone!                              | [SOON](./)                                                                                                                         |
-| 1. Cash only                                | [0-hbnb.py](./0-hbnb.py), [templates/0-hbnb.html](./templates/0-hbnb.html)                                                         |
-| 2. Select some Amenities to be comfortable! | [1-hbnb.py](./1-hbnb.py), [templates/1-hbnb.html](./templates/1-hbnb.html), [static/scripts/1-hbnb.js](./static/scripts/1-hbnb.js) |
-| 3. API status                               | [SOON](./)                                                                                                                         |
-| 4. Fetch places                             | [SOON](./)                                                                                                                         |
-| 5. Filter places by Amenity                 | [SOON](./)                                                                                                                         |
-| 6. States and Cities                        | [SOON](./)                                                                                                                         |
-| 7. Reviews                                  | [SOON](./)                                                                                                                         |
+| Task                                        | File                                                                                                                                                                             |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 0. Last clone!                              | [AirBnB_clone_v4](./)                                                                                                                                                            |
+| 1. Cash only                                | [0-hbnb.py](./0-hbnb.py), [templates/0-hbnb.html](./templates/0-hbnb.html)                                                                                                       |
+| 2. Select some Amenities to be comfortable! | [1-hbnb.py](./1-hbnb.py), [templates/1-hbnb.html](./templates/1-hbnb.html), [static/scripts/1-hbnb.js](./static/scripts/1-hbnb.js)                                               |
+| 3. API status                               | [2-hbnb.py](./2-hbnb.py), [templates/2-hbnb.html](./templates/2-hbnb.html), [3-header.css](./static/styles/3-header.css), [static/scripts/2-hbnb.js](./static/scripts/2-hbnb.js) |     |
+| 4. Fetch places                             | [3-hbnb.py](./3-hbnb.py), [templates/3-hbnb.html](./templates/3-hbnb.html), [static/scripts/3-hbnb.js](./static/scripts/3-hbnb.js)                                               |
+| 5. Filter places by Amenity                 | [4-hbnb.py](./4-hbnb.py), [templates/4-hbnb.html](./templates/4-hbnb.html), [static/scripts/4-hbnb.js](./static/scripts/4-hbnb.js)                                               |     |
+| 6. States and Cities                        | [100-hbnb.py](./100-hbnb.py), [templates/100-hbnb.html](./templates/100-hbnb.html), [static/scripts/100-hbnb.js](./static/scripts/100-hbnb.js)                                   |     |
+| 7. Reviews                                  | [101-hbnb.py](./101-hbnb.py), [templates/101-hbnb.html](./templates/101-hbnb.html), [static/scripts/101-hbnb.js](./static/scripts/101-hbnb.js)                                   |     |
 
 #### Functionalities of this command interpreter:
 
